@@ -7,14 +7,24 @@ fn variables(){
     println!("The value of x is: {}", x);
 }
 
-//2. numbers
-fn numbers(){
-    let age: u8 = 18;
-    println!("You are {} years old.", age)
+//2. datatypes
+fn datatype(){
+    let age: u8 = 18; //Unsigned integer
+    println!("You are {} years old.", age);
+
+    let b = true; //boolean
+    println!("It is {}", b);
+
+    let c = "Karl Marx is right!";
+    println!("{}", c);
+}
+
+fn stringtype(){
+
 }
 
 fn main() {
     println!("Hello, world!");
 
-    numbers()
+    datatype()
 }
