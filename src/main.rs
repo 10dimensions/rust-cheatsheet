@@ -26,5 +26,13 @@ fn stringtype(){
 fn main() {
     println!("Hello, world!");
 
-    datatype()
+    let num=1;
+    
+    match num{
+    1=>variables(),
+    2=>datatype(),
+    3=>stringtype(),
+    _=>println!("Rest of the number"),
+    
+  }
 }
